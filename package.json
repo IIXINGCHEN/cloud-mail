@@ -1,0 +1,19 @@
+{
+  "name": "cloud-mail",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloud Mail Application",
+  "scripts": {
+    "dev:worker": "cd mail-worker && pnpm dev",
+    "dev:vue": "cd mail-vue && pnpm dev",
+    "build:vue": "cd mail-vue && pnpm build",
+    "deploy:worker": "cd mail-worker && pnpm deploy",
+    "test:worker": "cd mail-worker && pnpm test",
+    "install:all": "pnpm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
